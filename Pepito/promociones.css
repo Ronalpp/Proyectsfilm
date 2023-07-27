@@ -1,0 +1,169 @@
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #000000;
+margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(5, 255, 255);
+    align-items: center;
+    padding-right: 25px;
+    display: flex;
+}
+
+header{
+    display: flex;
+    box-shadow: 1px 1px 19px -9px #000000;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #191725;
+    
+}
+
+  button span{
+    background-color: black;
+    padding: 16px  24px;
+    border-radius: 6px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  button:hover span {
+    background: none;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  
+  
+
+  a:hover {
+    color: rgb(255, 238, 0);
+    transform: translateY(-12%);
+    transition: all 400ms ease;
+}
+
+
+
+
+.latest {
+  padding: 120px 10%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(240px, 260px));
+    place-items: center;
+    place-content: center;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    row-gap: 90px;
+}
+
+.latest .item {
+  max-width: 290px;
+  max-height: 355px;
+    width: 210px;
+    height: 330px;
+    box-shadow: #ffffffc5 0px 0px 10px 0px;
+    border: 1px solid rgb(255, 238, 3);
+   
+   
+  }
+
+.lastest .item img {
+  width: 100% !important;
+  height: 100% !important;
+  user-select: none !important;
+  -ms-user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+  -webkit-user-drag: none !important;
+
+}
+
+.item img{
+  width: 210px;
+  height: 330px;
+
+}
+
+
+h2{
+  color: white;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  align-items: center;
+  gap: 5px;
+ display: grid;
+ place-items: center;
+}
+
+h2:hover{
+  color: rgb(255, 238, 0);
+    transform: translateY(-12%);
+    transition: all 400ms ease;
+}
+
+h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.logo img{
+
+  width: 210px; 
+  
+}
+
+.lastest item:hover{
+  transform: translateY(-12%);
+    transition: all 400ms ease;
+}
+
+main {
+  padding: 60px 0;
+}
+
+
+main h1 {
+  padding: 0px;
+  color: #f3f3f3;
+  letter-spacing: 20 px;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+    box-shadow: 1px 1px 19px -9px #f0f0f0;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #191725;
+}
+h4:hover{
+  color: rgb(255, 238, 0);
+    transform: translateY(-12%);
+    transition: all 400ms ease;
+    text-align: center;
+    place-items: center;
+    letter-spacing: 2px;
+    padding: 0px;
+}
